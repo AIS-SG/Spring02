@@ -23,7 +23,7 @@ pipeline {
 		
 		stage('3. docker build'){
 			steps{
-				sh 'docker build -t ex02-app:latest'
+				sh 'docker build -t ex02-app:latest .'
 				
 			}
 		}        
