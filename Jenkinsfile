@@ -5,7 +5,7 @@ pipeline {
         maven 'my-maven'  // 젠킨스에서 설치한 이름
     }
 	environment {
-		APP_NAME = 'ex01-app'
+		APP_NAME = 'ex02-app'
 		DOCKER_TAG = 'latest'
 		IMAGE_NAME = "luark/%(APP_NAME):$(DOCKER_TAG)"
 		TARGET_HOST = "192.168.56.107"
